@@ -1,0 +1,21 @@
+* {
+    border-bottom: none !important;
+}
+#courses{
+    display: flex;
+}
+
+#courses .card{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.card-body{
+    padding: 20px 0 !important;
+}
+
+li{
+    padding: 5px 0 !important;
+}
