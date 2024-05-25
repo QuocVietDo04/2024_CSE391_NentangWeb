@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Học web chuẩn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(function () {
+            // Change the content of h3 and div when clicked button
+            $('#hehe').click(function () {
+               $('h3').text('Change'); 
+               $('h3').css('color','red'); 
+               $('#box div').text('Change'); 
+               $('#box div').css('color','red'); 
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <h3>Title</h3>
+        <div>In suscipit nec velit sit amet convallis. Integer</div>
+    </div>
+    <button id="hehe" type="button">Click</button>
+</body>
+
+</html>
