@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Học web chuẩn</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(function () {
+            /* Code viết ở đây ↓ */
+            // Add new item to the list when you clicked button tag
+            $('button').click(function () {
+                // Add new item to the list and auto increase number of items
+                var item = $('#list li').length + 1;
+                // Add new item to the list
+                $('#list').append('<li>item ' + item + '</li>');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+    </ul>
+    <button type="button">Add</button>
+</body>
+
+</html>
